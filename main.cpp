@@ -1,11 +1,9 @@
 /*
- * Copyright (c) 2026 Marcel Nicklaß
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY.
+ * Project: <your-project-name>
+ * Copyright (C) 2026 Marcel Nicklaß
+ * This file is part of test.
+ * Licensed under the GNU General Public License v3.0 or later.
+ * See <https://www.gnu.org/licenses/>.
  */
 class Solution {
 public:
