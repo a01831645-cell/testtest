@@ -1,5 +1,4 @@
-/**
- * File: main.cpp
+/** File: main.cpp
  * Description: Solution for counting bits problem
  * Author: Marcel Nicklaß
  * Date: 2026-04-20
