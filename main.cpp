@@ -17,15 +17,18 @@
  * along with this program; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
+
+#include <iostream>
+#include <numeric>
+#include <cmath>
+using namespace std;
+
 class Solution {
 public:
-    vector<int> CountBits(int n) {
-        vector<int> ans(n + 1, 0);
-
-        for (int i = 1; i <= n; i++) {
-            ans[i] = ans[i & (i - 1)] + 1;
-        }
-
-        return ans;
+    int GcdOfOddEvenSums(int n) {
+        int evenNumbers, oddNumbers = 0;
+        evenNumbers = n*(n+1);
+        oddNumbers = pow(n, 2);
+        return gcd(evenNumbers, oddNumbers);
     }
 };
